@@ -29,3 +29,5 @@ cd /home/dyf/dataset/ocrtoc_video_test/0001/annotations/coco_data
 python renameMask.py
 ```
 then rename anotations/coco_data to annotations/masks, delete non-essential files, and rename generated video 0001
+
+USE for loop to generate videos, don't forget to rename video
