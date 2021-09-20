@@ -5,8 +5,9 @@
 
 REPOSITORY="/home/dyf/Desktop/robo/BlenderProc"
 CONFIG="${REPOSITORY}/examples/ocrtoc/config.yaml"
-OUTPUT="/home/dyf/dataset/ocrtoc_video"
+OUTPUT="/home/dyf/dataset/ocrtoc_video_test"
 DATASET="/home/dyf/dataset/ocrtoc"
+#DATASET="/home/dyf/Desktop/robo/ocrtoc"
 CAMERA_CONFIG="${REPOSITORY}/examples/ocrtoc/camera.json"
 CC_MATERIALS="${REPOSITORY}/resources/cctextures/"
 

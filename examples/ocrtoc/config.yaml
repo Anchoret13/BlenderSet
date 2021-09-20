@@ -27,7 +27,7 @@
         "camera_config_path": "<args:2>",
         "mm2m": False,
         "sample_objects": True,
-        "num_of_objs_to_sample": 12,
+        "num_of_objs_to_sample": 15,
         "obj_instances_limit": 1,
         "add_properties": {
           "cp_physics": True
@@ -159,18 +159,18 @@
         },
         "pos_sampler": {
           "provider":"sampler.Uniform3d",
-          "min": [-0.1, -0.1, 0.0],
-          "max": [0.15, 0.15, 0.1]
-          # "min": {  # min could also be random number that is sampled from sampler.Uniform3d
-          #   "provider": "sampler.Uniform3d",
-          #   "min": [-0.3, -0.3, 0.0],
-          #   "max": [-0.2, -0.2, 0.0]
-          # },
-          # "max": {
-          #   "provider": "sampler.Uniform3d",
-          #   "min": [0.2, 0.2, 0.4],
-          #   "max": [0.3, 0.3, 0.6]
-          # }
+          #"min": [-0.1, -0.1, 0.0],
+          #"max": [0.15, 0.15, 0.1]
+          "min": {  # min could also be random number that is sampled from sampler.Uniform3d
+            "provider": "sampler.Uniform3d",
+            "min": [-0.3, -0.3, 0.0],
+            "max": [-0.2, -0.2, 0.0]
+          },
+          "max": {
+            "provider": "sampler.Uniform3d",
+            "min": [0.2, 0.2, 0.2],
+            "max": [0.3, 0.3, 0.4]
+          }
         },
         "rot_sampler":{
           "provider":"sampler.UniformSO3",
