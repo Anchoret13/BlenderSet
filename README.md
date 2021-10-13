@@ -29,3 +29,38 @@ cd /home/dyf/dataset/ocrtoc_video_test/0001/annotations/coco_data
 python renameMask.py
 ```
 then rename anotations/coco_data to annotations/masks, delete non-essential files, and rename generated video 0001
+
+USE for loop to generate videos, don't forget to rename video
+
+
+### Selected Objects
+a_cups,
+bleach_cleanser,
+bowl,
+cracker_box,
+cup_small,
+d_cups,
+doraemon_bowl,
+doraemon_cup,
+e_cups,
+foam_brick,
+gleatin_box,
+hello_kitty_cup,
+hello_kitty_plate,
+large_clamp,
+medium_clamp,
+mustrad_bottle,
+pan_tefal,
+pepsi,
+potted_meat_can,
+power_drill,
+pudding_box,
+realsense_box,
+redbull,
+rubiks_cube,
+sugar_box,
+tea_can1,
+tomato_soup_can,
+tuna_fish_can,
+wood_block,
+wooden_puzzle1
